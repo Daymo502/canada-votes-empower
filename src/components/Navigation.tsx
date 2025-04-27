@@ -14,8 +14,8 @@ export default function Navigation() {
   const location = useLocation();
   
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t md:border-t-0">
-      <div className="container flex justify-between items-center h-16">
+    <nav className="border-b">
+      <div className="container flex h-16 items-center space-x-4">
         {navItems.map((item) => {
           const isActive = location.pathname === item.path;
           return (
@@ -23,14 +23,14 @@ export default function Navigation() {
               key={item.path}
               to={item.path}
               className={cn(
-                "flex flex-1 flex-col items-center justify-center h-full transition-colors",
+                "flex items-center gap-2 px-3 py-2 rounded-md transition-colors",
                 isActive 
-                  ? "text-maple" 
-                  : "text-neutral-600 hover:text-navy"
+                  ? "text-maple bg-maple/5" 
+                  : "text-neutral-600 hover:text-navy hover:bg-neutral-50"
               )}
             >
-              <item.icon className="h-5 w-5 mb-1" />
-              <span className="text-xs font-medium">{item.label}</span>
+              <item.icon className="h-4 w-4" />
+              <span className="font-medium">{item.label}</span>
             </Link>
           );
         })}
