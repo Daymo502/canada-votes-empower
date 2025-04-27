@@ -188,7 +188,7 @@ const issues = [
         points: [
           'Housing programs managed by Quebec',
           'Transfer federal housing funds to Quebec',
-          'Support Quebec's housing initiatives',
+          'Support Quebec\'s housing initiatives',
         ]
       }
     }

@@ -28,7 +28,7 @@ const votingSteps = [
     details: [
       'Most Canadian citizens are already registered to vote.',
       'You can check online at elections.ca or call 1-800-463-6868.',
-      'If you're not registered, you can do so at the polling station on election day.'
+      'If you\'re not registered, you can do so at the polling station on election day.'
     ],
     image: 'https://source.unsplash.com/random/800x600/?passport',
     checklistItem: 'I have confirmed I am eligible to vote.'
@@ -39,8 +39,8 @@ const votingSteps = [
     description: 'Before election day, you should receive a voter information card in the mail with your polling location.',
     details: [
       'Your voter information card will be mailed to you about a month before election day.',
-      'It contains the address of your assigned polling station and the hours it's open.',
-      'If you don't receive a card, you can find your polling station at elections.ca by entering your postal code.'
+      'It contains the address of your assigned polling station and the hours it\'s open.',
+      'If you don\'t receive a card, you can find your polling station at elections.ca by entering your postal code.'
     ],
     image: 'https://source.unsplash.com/random/800x600/?map',
     checklistItem: 'I know where my polling station is located.'
@@ -50,9 +50,9 @@ const votingSteps = [
     title: 'Prepare Identification',
     description: 'You need to prove your identity and address to vote. There are several options available.',
     details: [
-      'Option 1: Show one piece of government-issued ID with your photo, name, and address (like a driver's license).',
+      'Option 1: Show one piece of government-issued ID with your photo, name, and address (like a driver\'s license).',
       'Option 2: Show two pieces of ID where at least one has your address (health card plus a utility bill).',
-      'Option 3: If you don't have ID, you can still vote if another voter from your polling station vouches for you.'
+      'Option 3: If you don\'t have ID, you can still vote if another voter from your polling station vouches for you.'
     ],
     image: 'https://source.unsplash.com/random/800x600/?id-card',
     checklistItem: 'I have prepared the ID I will bring to vote.'
@@ -63,8 +63,8 @@ const votingSteps = [
     description: 'Arrive at your polling station during open hours, usually 8:30 AM to 8:30 PM.',
     details: [
       'When you arrive, an election worker will greet you and direct you to the right table.',
-      'Present your ID to the election officer, who will check if you're on the voter list.',
-      'You'll receive a folded ballot paper with all candidates' names in your riding.'
+      'Present your ID to the election officer, who will check if you\'re on the voter list.',
+      'You\'ll receive a folded ballot paper with all candidates\' names in your riding.'
     ],
     image: 'https://source.unsplash.com/random/800x600/?voting-booth',
     checklistItem: 'I have made a plan for when I will go vote.'
