@@ -30,7 +30,7 @@ const votingSteps = [
       'You can check online at elections.ca or call 1-800-463-6868.',
       'If you\'re not registered, you can do so at the polling station on election day.'
     ],
-    image: 'https://source.unsplash.com/random/800x600/?passport',
+    image: '/placeholder.svg',
     checklistItem: 'I have confirmed I am eligible to vote.'
   },
   {
@@ -42,7 +42,7 @@ const votingSteps = [
       'It contains the address of your assigned polling station and the hours it\'s open.',
       'If you don\'t receive a card, you can find your polling station at elections.ca by entering your postal code.'
     ],
-    image: 'https://source.unsplash.com/random/800x600/?map',
+    image: '/placeholder.svg',
     checklistItem: 'I know where my polling station is located.'
   },
   {
@@ -54,7 +54,7 @@ const votingSteps = [
       'Option 2: Show two pieces of ID where at least one has your address (health card plus a utility bill).',
       'Option 3: If you don\'t have ID, you can still vote if another voter from your polling station vouches for you.'
     ],
-    image: 'https://source.unsplash.com/random/800x600/?id-card',
+    image: '/placeholder.svg',
     checklistItem: 'I have prepared the ID I will bring to vote.'
   },
   {
@@ -66,7 +66,7 @@ const votingSteps = [
       'Present your ID to the election officer, who will check if you\'re on the voter list.',
       'You\'ll receive a folded ballot paper with all candidates\' names in your riding.'
     ],
-    image: 'https://source.unsplash.com/random/800x600/?voting-booth',
+    image: '/placeholder.svg',
     checklistItem: 'I have made a plan for when I will go vote.'
   },
   {
@@ -78,7 +78,7 @@ const votingSteps = [
       'Fold your ballot to keep your vote private.',
       'If you make a mistake, you can return the ballot and ask for a new one.'
     ],
-    image: 'https://source.unsplash.com/random/800x600/?ballot',
+    image: '/placeholder.svg',
     checklistItem: 'I understand how to properly mark my ballot.'
   }
 ];

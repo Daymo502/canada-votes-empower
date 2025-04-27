@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Navigation from "@/components/Navigation";
 import SectionTitle from "@/components/SectionTitle";
@@ -92,7 +91,7 @@ export default function Learn() {
               <Card className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <img 
-                    src="https://source.unsplash.com/random/800x500/?voting" 
+                    src="/placeholder.svg" 
                     alt="How to Vote Guide" 
                     className="w-full h-full object-cover"
                   />
@@ -122,7 +121,7 @@ export default function Learn() {
               <Card className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <img 
-                    src="https://source.unsplash.com/random/800x500/?parliament" 
+                    src="/placeholder.svg" 
                     alt="Party Comparison Tool" 
                     className="w-full h-full object-cover"
                   />

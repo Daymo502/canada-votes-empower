@@ -25,7 +25,7 @@ export default function Index() {
           
           <div className="relative rounded-xl overflow-hidden mb-12">
             <img
-              src="https://source.unsplash.com/photo-1581091226825-a6a2a5aee158"
+              src="/placeholder.svg"
               alt="Diverse citizens engaging with Canadian democracy"
               className="w-full h-64 md:h-96 object-cover"
             />
@@ -62,7 +62,7 @@ export default function Index() {
               icon={<Vote className="h-5 w-5 text-maple" />}
               link="/vote"
               action="Compare Now"
-              image="https://source.unsplash.com/random/800x500/?parliament"
+              image="/placeholder.svg"
             />
             <FeatureCard
               title="Step-by-Step Guide"
@@ -70,7 +70,7 @@ export default function Index() {
               icon={<Check className="h-5 w-5 text-maple" />}
               link="/vote"
               action="View Guide"
-              image="https://source.unsplash.com/random/800x500/?voting"
+              image="/placeholder.svg"
             />
             <FeatureCard
               title="Resources & FAQ"
@@ -78,7 +78,7 @@ export default function Index() {
               icon={<HelpCircle className="h-5 w-5 text-maple" />}
               link="/resources"
               action="Explore Resources"
-              image="https://source.unsplash.com/random/800x500/?question"
+              image="/placeholder.svg"
             />
           </div>
           

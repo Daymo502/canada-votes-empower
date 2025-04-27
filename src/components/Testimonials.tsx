@@ -12,28 +12,28 @@ const testimonials = [
     quote: "I was nervous about my first time voting in Canada. This platform helped me understand the process step by step, and I felt so proud when I cast my ballot!",
     name: "Maria Rodriguez",
     origin: "Mexico",
-    image: "https://source.unsplash.com/random/100x100/?woman",
+    image: "/placeholder.svg",
   },
   {
     id: 2,
     quote: "The comparison tool made it easy to understand where each party stands on issues that matter to me. I felt informed and confident about my choice.",
     name: "Wei Chen",
     origin: "China",
-    image: "https://source.unsplash.com/random/100x100/?man",
+    image: "/placeholder.svg",
   },
   {
     id: 3,
     quote: "As a new citizen, I wasn't sure if my English was good enough to vote. I'm glad I learned that language is not a barrier in Canadian democracy.",
     name: "Abdul Rahman",
     origin: "Syria",
-    image: "https://source.unsplash.com/random/100x100/?man2",
+    image: "/placeholder.svg",
   },
   {
     id: 4,
     quote: "The step-by-step guide answered all my questions. I knew exactly what to do on election day and felt very welcome at my polling station.",
     name: "Priya Patel",
     origin: "India",
-    image: "https://source.unsplash.com/random/100x100/?woman2",
+    image: "/placeholder.svg",
   },
 ];
 
